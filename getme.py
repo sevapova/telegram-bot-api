@@ -7,3 +7,4 @@ url = f'https://api.telegram.org/bot{TOKEN}/getMe'
 
 r = requests.get(url)
 pprint(r.url)
+
